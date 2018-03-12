@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<modificationmarks:ReqModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:modificationmarks="http://sdq.ipd.kit.edu/KAMP4ReqModificationmarks/1.0" xmlns:modificationmarks_1="http://sdq.ipd.kit.edu/KAMP4BPModificationmarks/1.0" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
+  <seedModifications xsi:type="modificationmarks:ReqSeedModifications">
+    <signatureModifications>
+      <affectedElement xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_y7-SEGXjEeamEr6y5T9PEQ"/>
+    </signatureModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="modificationmarks_1:BPInterBusinessProcessPropagation">
+    <abstractUserActionModifications xsi:type="modificationmarks_1:BPModifyEntryLevelSystemCall" toolderived="true">
+      <affectedElement xsi:type="usagemodel:EntryLevelSystemCall" href="cocome-cloud-sale-process.bpusagemodel#_Twvv8O39EeaVJe0Sxifr_Q"/>
+      <causingElements xsi:type="repository:OperationSignature" href="cocome-cloud.repository#_y7-SEGXjEeamEr6y5T9PEQ"/>
+    </abstractUserActionModifications>
+  </changePropagationSteps>
+</modificationmarks:ReqModificationRepository>

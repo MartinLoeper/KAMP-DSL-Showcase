@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: Cocome
+Bundle-Name: Cocome
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.emf.ecore,org.eclipse.ui,org.palladiosimul
+ ator.pcm,edu.kit.ipd.sdq.kamp.ruledsl.ui,org.eclipse.xtend.lib.macro,
+ com.google.guava,org.eclipse.emf.compare,org.eclipse.core.resources,o
+ rg.eclipse.xtend.lib,tools.vitruv.framework.util,org.apache.log4j,edu
+ .kit.ipd.sdq.kamp.ruledsl
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: edu.kit.ipd.sdq.kamp.architecture,edu.kit.ipd.sdq.kamp
+ .propagation,edu.kit.ipd.sdq.kamp.util,edu.kit.ipd.sdq.kamp4bp.model.
+ modificationmarks,edu.kit.ipd.sdq.kamp4bp.core,edu.kit.ipd.sdq.kamp.m
+ odel.modificationmarks,edu.kit.ipd.sdq.kamp4is.model.modificationmark
+ s,edu.kit.ipd.sdq.kamp4is.core,edu.kit.ipd.sdq.kamp.ruledsl.support
+
